@@ -69,3 +69,9 @@ footer a:hover {
 .card {
     background-color: #e9ecef;
 }
+
+/*index Article*/
+.card-title {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
