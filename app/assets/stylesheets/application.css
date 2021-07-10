@@ -58,3 +58,14 @@ footer {
 footer a:hover {
     color: #222;
 }
+
+/*Show Article*/
+.article-actions {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    background-color: #e9ecef;
+}
