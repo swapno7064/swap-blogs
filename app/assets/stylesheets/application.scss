@@ -48,7 +48,7 @@
 footer {
     margin-top: 45px;
     padding-top: 5px;
-    border-top: 1px solid #eeeaea;
+    border-top: 1px solid rgba(50, 115, 220, 0.3);
     color: #777;
     display: flex;
     justify-content: space-around;
@@ -74,4 +74,10 @@ footer a:hover {
 .card-title {
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+.article-meta-details {
+    border-top: 1px solid rgba(50, 115, 220, 0.3);
+    ;
+    margin-top: 15px;
 }
