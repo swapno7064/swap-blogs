@@ -1,5 +1,8 @@
 <h1 align="center">All Swap Bloggers</h1>
 <div align="center">
+    <div align="center" class="table">
+        <%= will_paginate%>
+    </div>
     <% @users.each do |user| %>
     <ul class="listing">
         <div class="row">
@@ -19,4 +22,7 @@
         </div>
     </ul>
     <% end %>
+    <div align="center" class="table">
+        <%= will_paginate%>
+    </div>
 </div>
